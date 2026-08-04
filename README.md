@@ -74,3 +74,10 @@ DevOps-Roadmap/
 ├── ansible/
 ├── azure/
 └── kubernetes/
+
+## Current status
+
+- Git installed and configured on Windows.
+- Repository cloned locally.
+- First local Git workflow in progress.
+
