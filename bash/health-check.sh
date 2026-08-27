@@ -52,3 +52,12 @@ if systemctl is-active --quiet open-vm-tools; then
 else
     echo "ERROR: open-vm-tools is not running"
 fi
+
+echo
+echo "SSH status:"
+
+if systemctl is-active --quiet ssh.socket; then
+    echo "OK: SSH socket is active"
+else
+    echo "ERROR: SSH socket is not active"
+fi
